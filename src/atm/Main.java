@@ -38,6 +38,11 @@ public class Main extends javax.swing.JFrame {
         jLabel1.setText("Main menu");
 
         jButton1.setText("View my balance ");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("Withdraw cash");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -47,6 +52,11 @@ public class Main extends javax.swing.JFrame {
         });
 
         jButton3.setText("Deposit funds");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jButton4.setText("Exit");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -106,6 +116,18 @@ public class Main extends javax.swing.JFrame {
         Main main = new Main();
         main.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        Balance balance = new Balance();
+        balance.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        Deposit deposit = new Deposit();
+        deposit.setVisible(true);
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
