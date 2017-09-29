@@ -127,6 +127,9 @@ public class Main extends javax.swing.JFrame {
         // TODO add your handling code here:
         Deposit deposit = new Deposit();
         deposit.setVisible(true);
+        Main main = new Main();
+        main.setVisible(false);
+        dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
