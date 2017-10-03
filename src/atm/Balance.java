@@ -78,8 +78,6 @@ public class Balance extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         Balance balance = new Balance();
-        Main main = new Main();
-        main.setVisible(true);
         balance.setVisible(false);
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed

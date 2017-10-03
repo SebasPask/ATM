@@ -112,8 +112,6 @@ public class Withdraw extends javax.swing.JFrame {
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
         Withdraw withdraw = new Withdraw();
-        Main main = new Main();
-        main.setVisible(true);
         withdraw.setVisible(false);
         dispose();
         

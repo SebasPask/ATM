@@ -83,7 +83,7 @@ public class Main extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(45, 45, 45)
                         .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(36, Short.MAX_VALUE))
+                .addContainerGap(23, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -98,7 +98,7 @@ public class Main extends javax.swing.JFrame {
                 .addComponent(jButton3)
                 .addGap(33, 33, 33)
                 .addComponent(jButton4)
-                .addContainerGap(64, Short.MAX_VALUE))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
 
         pack();
@@ -113,23 +113,21 @@ public class Main extends javax.swing.JFrame {
         // TODO add your handling code here:
         Withdraw withdraw = new Withdraw();
         withdraw.setVisible(true);
-        Main main = new Main();
-        main.setVisible(false);
+        withdraw.setLocation(240, 305);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         Balance balance = new Balance();
         balance.setVisible(true);
+        balance.setLocation(440, 0);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         Deposit deposit = new Deposit();
         deposit.setVisible(true);
-        Main main = new Main();
-        main.setVisible(false);
-        dispose();
+        deposit.setLocation(590, 0);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**

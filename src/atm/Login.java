@@ -111,8 +111,7 @@ public class Login extends javax.swing.JFrame {
         Main main = new Main();
         Login login = new Login();
         main.setVisible(true);
-        login.setVisible(false);
-        dispose();
+        main.setLocation(240, 0);
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
