@@ -137,6 +137,7 @@ public class Withdraw extends javax.swing.JFrame {
         // TODO add your handling code here:
         Withdraw_more wm = new Withdraw_more();
         wm.setVisible(true);
+        wm.setLocation(550,300);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
