@@ -58,7 +58,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setText("Exit");
+        jButton4.setText("Logout");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
